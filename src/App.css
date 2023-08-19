@@ -1,10 +1,22 @@
 .App {
   text-align: center;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+table, th, td {
+  border: 1px solid black;
+  width: 50%;
+}
+
+table {
+  width: 100%
 }
 
 @media (prefers-reduced-motion: no-preference) {
